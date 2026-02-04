@@ -4,6 +4,16 @@ A comprehensive Python library and CLI tool for accessing and analyzing Granola.
 
 ## 📋 Changelog
 
+### 2026-02-02 - Email Automation 📧
+- **NEW**: Automatic email delivery of completed meeting transcripts
+- **FEATURE**: Polls every 5 minutes for recently completed meetings
+- **FEATURE**: 5-minute quiet period detection to ensure meetings are finished
+- **FEATURE**: AWS SES integration for reliable email delivery
+- **FEATURE**: State tracking prevents duplicate emails
+- **FEATURE**: macOS launchd integration for system-level automation
+- **FEATURE**: Survives system restarts and sleep/wake cycles
+- **USE CASE**: Automatically receive meeting transcripts in your inbox
+
 ### 2025-07-04 - New Collect Command 🎯
 - **NEW**: Added `granola collect` command for exporting your own words from meetings
 - **FEATURE**: Automatically filters microphone audio (your spoken words) vs system audio (what you heard)
@@ -50,6 +60,14 @@ GranolaMCP provides complete access to Granola.ai meeting data through multiple 
 - 📈 **Analytics Dashboard** - Meeting frequency, duration patterns, and trends
 - 🎨 **Beautiful Output** - Color-coded, formatted terminal displays
 - 📄 **Export Capabilities** - Export to markdown with full formatting
+
+### Email Automation
+- 📧 **Automatic Transcript Delivery** - Email completed meeting transcripts automatically
+- 🔄 **Scheduled Polling** - Checks for completed meetings every 5 minutes
+- ⏱️ **Smart Detection** - 5-minute quiet period ensures meetings are truly finished
+- 🚫 **Duplicate Prevention** - State tracking prevents re-sending emails
+- 🔁 **System Integration** - macOS launchd ensures persistence across restarts
+- ☁️ **AWS SES** - Reliable email delivery via Amazon's email service
 
 ### MCP Server for AI Integration
 - 🤖 **8 Comprehensive Tools** - Complete meeting data access for AI assistants
